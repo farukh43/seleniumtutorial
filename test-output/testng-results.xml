@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-28T17:14:55 EST" name="Suite" finished-at="2024-11-28T17:15:02 EST" duration-ms="6439">
+    <groups>
+    </groups>
+    <test started-at="2024-11-28T17:14:55 EST" name="Test" finished-at="2024-11-28T17:15:02 EST" duration-ms="6439">
+      <class name="class42.FirstTestCase">
+        <test-method signature="login()[pri:0, instance:class42.FirstTestCase@6356695f]" started-at="2024-11-28T17:14:55 EST" name="login" finished-at="2024-11-28T17:14:55 EST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:class42.FirstTestCase@6356695f]" started-at="2024-11-28T17:14:56 EST" name="logout" finished-at="2024-11-28T17:14:56 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="openapp()[pri:0, instance:class42.FirstTestCase@6356695f]" started-at="2024-11-28T17:14:56 EST" name="openapp" finished-at="2024-11-28T17:14:56 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+      </class> <!-- class42.FirstTestCase -->
+      <class name="class42.OrangeHRMTest">
+        <test-method signature="openApp()[pri:1, instance:class42.OrangeHRMTest@79924b]" started-at="2024-11-28T17:14:56 EST" name="openApp" finished-at="2024-11-28T17:14:58 EST" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLogo()[pri:2, instance:class42.OrangeHRMTest@79924b]" started-at="2024-11-28T17:14:58 EST" name="testLogo" finished-at="2024-11-28T17:15:01 EST" duration-ms="3052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testLogin()[pri:3, instance:class42.OrangeHRMTest@79924b]" started-at="2024-11-28T17:15:01 EST" name="testLogin" finished-at="2024-11-28T17:15:02 EST" duration-ms="1026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="closeApp()[pri:4, instance:class42.OrangeHRMTest@79924b]" started-at="2024-11-28T17:15:02 EST" name="closeApp" finished-at="2024-11-28T17:15:02 EST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- class42.OrangeHRMTest -->
+      <class name="class42.FirstTestCasePriority">
+        <test-method signature="openapp()[pri:1, instance:class42.FirstTestCasePriority@7b9a4292]" started-at="2024-11-28T17:15:02 EST" name="openapp" finished-at="2024-11-28T17:15:02 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="login()[pri:2, instance:class42.FirstTestCasePriority@7b9a4292]" started-at="2024-11-28T17:15:02 EST" name="login" finished-at="2024-11-28T17:15:02 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:3, instance:class42.FirstTestCasePriority@7b9a4292]" started-at="2024-11-28T17:15:02 EST" name="logout" finished-at="2024-11-28T17:15:02 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- class42.FirstTestCasePriority -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
