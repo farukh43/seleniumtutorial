@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Learnings\SeleniumTutorials\src\test\java\class42\testng.xml</span>
+                    <span>C:\Learnings\SeleniumTutorials\src\test\java\class46\extentreport.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="class46.OrangeHRM" class="method navigator-link" hash-for-method="testAppURL">testAppURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="class46.OrangeHRM" class="method navigator-link" hash-for-method="testHomePageTitle">testHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,52 +132,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="class42.OrangeHRMTest" class="method navigator-link" hash-for-method="closeApp">closeApp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="class42.FirstTestCasePriority" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="class42.FirstTestCase" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="class42.FirstTestCasePriority" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="class42.FirstTestCase" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="class42.OrangeHRMTest" class="method navigator-link" hash-for-method="openApp">openApp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="class42.FirstTestCase" class="method navigator-link" hash-for-method="openapp">openapp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="class42.FirstTestCasePriority" class="method navigator-link" hash-for-method="openapp">openapp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="class42.OrangeHRMTest" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="class42.OrangeHRMTest" class="method navigator-link" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="class46.OrangeHRM" class="method navigator-link" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -164,62 +147,51 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">class42.FirstTestCasePriority</span>
+              <img src="failed.png"/>
+              <span class="class-name">class46.OrangeHRM</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logout">
-                  </a> <!-- logout -->
-                  <span class="method-name">logout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="openapp">
-                  </a> <!-- openapp -->
-                  <span class="method-name">openapp</span>
+                  <a name="testAppURL">
+                  </a> <!-- testAppURL -->
+                  <span class="method-name">testAppURL</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://opensource-demo.orangehrmlive.com/] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+	at class46.OrangeHRM.testAppURL(OrangeHRM.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">class42.OrangeHRMTest</span>
+              <img src="skipped.png"/>
+              <span class="class-name">class46.OrangeHRM</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="closeApp">
-                  </a> <!-- closeApp -->
-                  <span class="method-name">closeApp</span>
+                  <a name="testHomePageTitle">
+                  </a> <!-- testHomePageTitle -->
+                  <span class="method-name">testHomePageTitle</span>
+                  <div class="stack-trace">java.lang.Throwable: Method OrangeHRM.testHomePageTitle()[pri:3, instance:class46.OrangeHRM@57a3af25] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="openApp">
-                  </a> <!-- openApp -->
-                  <span class="method-name">openApp</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogin">
-                  </a> <!-- testLogin -->
-                  <span class="method-name">testLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">class46.OrangeHRM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="testLogo">
@@ -229,50 +201,22 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">class42.FirstTestCase</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logout">
-                  </a> <!-- logout -->
-                  <span class="method-name">logout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="openapp">
-                  </a> <!-- openapp -->
-                  <span class="method-name">openapp</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Learnings\SeleniumTutorials\src\test\java\class42\testng.xml</span>
+            <span class="header-content">C:\Learnings\SeleniumTutorials\src\test\java\class46\extentreport.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;class46.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;class42.FirstTestCase&quot;/&gt;
-      &lt;class name=&quot;class42.OrangeHRMTest&quot;/&gt;
-      &lt;class name=&quot;class42.FirstTestCasePriority&quot;/&gt;
+      &lt;class name=&quot;class46.OrangeHRM&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -286,7 +230,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -312,52 +256,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLogo')
-data.setCell(0, 2, 'class42.OrangeHRMTest')
-data.setCell(0, 3, 3052);
+data.setCell(0, 2, 'class46.OrangeHRM')
+data.setCell(0, 3, 43);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'openApp')
-data.setCell(1, 2, 'class42.OrangeHRMTest')
-data.setCell(1, 3, 2090);
+data.setCell(1, 1, 'testAppURL')
+data.setCell(1, 2, 'class46.OrangeHRM')
+data.setCell(1, 3, 10);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLogin')
-data.setCell(2, 2, 'class42.OrangeHRMTest')
-data.setCell(2, 3, 1026);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'closeApp')
-data.setCell(3, 2, 'class42.OrangeHRMTest')
-data.setCell(3, 3, 203);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'login')
-data.setCell(4, 2, 'class42.FirstTestCase')
-data.setCell(4, 3, 11);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'logout')
-data.setCell(5, 2, 'class42.FirstTestCasePriority')
-data.setCell(5, 3, 2);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'openapp')
-data.setCell(6, 2, 'class42.FirstTestCase')
-data.setCell(6, 3, 1);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'login')
-data.setCell(7, 2, 'class42.FirstTestCasePriority')
-data.setCell(7, 3, 1);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'logout')
-data.setCell(8, 2, 'class42.FirstTestCase')
-data.setCell(8, 3, 1);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'openapp')
-data.setCell(9, 2, 'class42.FirstTestCasePriority')
-data.setCell(9, 3, 0);
+data.setCell(2, 1, 'testHomePageTitle')
+data.setCell(2, 2, 'class46.OrangeHRM')
+data.setCell(2, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 54 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -383,53 +299,29 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">class42.FirstTestCase</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">login</span>
+              <div class="chronological-class-name">class46.OrangeHRM</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logout</span>
-                <span class="method-start">13 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">openapp</span>
-                <span class="method-start">15 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">class42.OrangeHRMTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">openApp</span>
-                <span class="method-start">18 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testLogo</span>
-                <span class="method-start">2111 ms</span>
+                <span class="method-start">5473 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testLogin</span>
-                <span class="method-start">5165 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAppURL</span>
+                <span class="method-start">5527 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">closeApp</span>
-                <span class="method-start">6194 ms</span>
+                <span class="method-name">testHomePageTitle</span>
+                <span class="method-start">5541 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">class42.FirstTestCasePriority</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">openapp</span>
-                <span class="method-start">6398 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">6399 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logout</span>
-                <span class="method-start">6401 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5545 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

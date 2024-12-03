@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests" thread-count="5">
+<!-- parallel="tests" in the suite tag we have achecived the paralled execution , below defined the test will execute the same test case in three different browser parallely-->
+<!-- thread-count="5" is recommanded 2 to 5 is fine . Above 5 is not adviced , it will occupy lot od CPU memory, execution will be slow-->
+	<test  name="chromeTest">
+		<!-- here we are parameterizong the values of browser-->
+		<!-- We need to explicitly define the @Parameter() tag in ParamTestDemo.
+		class-->
+		
+		<parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="class45.ParamTestDemo" />
+			
+			
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test name="firefoxTest">
+	<parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="class45.ParamTestDemo" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test name="edgeTest">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+		
+		<classes>
+			<class name="class45.ParamTestDemo" />
+		</classes>
+	</test> <!--
+	Test -->
+	
+<!-- Above we have defined the the Three test for different browser(Test case is same for all three browser)-->
+<!-- we can also do parallel execution of class but if we have dependicies on each other it will fail-->
+<!-- Paralled execution of classes is not recommanded-->
+
+<!-- the sytax is at class level , multiple classes should be present===>  <test parallel="classes" thread-count="5" name="edgeTest"></test> -->
+
+</suite> <!--
+Suite -->

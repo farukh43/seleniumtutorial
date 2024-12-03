@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite">
+
+	<!-- Here we need to add our listner tags-->
+	<!-- For all the classes only one Lister class will be there foor project -->
+	
+	<listeners>
+	
+		<listener class-name="class46.ExtentReportManager">
+		</listener>
+
+	</listeners>
+
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="class46.OrangeHRM" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

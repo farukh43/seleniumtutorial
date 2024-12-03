@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="gropingsuite">
+	<test name="groupingtest">
+
+		<!--Here we are grouping the test cases based on groups -->
+		<groups>
+			<run>
+				<include name="sanity">
+					<exclude name="regression"> <!--Here we are including the sanity but excluding the Regression-->
+					<!--<include name="functional">-->
+					</exclude>
+				</include>
+			</run>
+		</groups>
+		<!-- this is the end of grouping tag-->
+		<classes>
+			<class name="class44.LoginTests" />
+			<class name="class44.SignUpTest" />
+			<class name="class44.PaymentTests" />
+		</classes>
+	</test>
+</suite>
