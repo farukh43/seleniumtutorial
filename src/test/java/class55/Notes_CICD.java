@@ -62,7 +62,7 @@ public class Notes_CICD {
 	 	git remote add origin https://github.com/farukh43/OpencartV3040.git
 
 	6) push the code into remote repository.
-	 git push origin master
+	 git push origin master 
 	 
 	 Note - Generate your token insted of password
 	
