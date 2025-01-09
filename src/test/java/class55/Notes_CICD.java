@@ -52,7 +52,7 @@ public class Notes_CICD {
 	3)Adding files/folders to staging/indexing
 		git add -A --> add all the file and folders to staging
 		git add filename
-		git add *.jave
+		git add *.java
 		git add foldername
 		
 	4)Commit the code into local(git) repository
